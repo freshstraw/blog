@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: freshstraw
 subtitle: ''
 description: ''
 keywords:
@@ -95,20 +95,6 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: yilia
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-## 部署到github
-## hexo deploy
-deploy:
-  type: git
-  repo: https://github.com/freshstraw/freshstraw.github.io
-  branch: master
-
 # json_content
 ## sudo npm i hexo-generator-json-content --save
 jsonContent:
@@ -128,5 +114,19 @@ jsonContent:
     permalink: false
     excerpt: false
     categories: false
-    tags: false
-    author: false
+    tags: true
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: yilia
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+## 部署到github
+## hexo deploy
+deploy:
+  type: git
+  repo: https://github.com/freshstraw/freshstraw.github.io
+  branch: master
+

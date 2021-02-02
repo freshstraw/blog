@@ -2,15 +2,16 @@
 
 menu:
   主页: /
-  随笔: /archives/index.html
+  随笔: /tags/随笔
+  归档: /archives/index.html
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
+  github: "https://github.com/freshstraw"
+  #eibo: "#"
   #rss: "#"
-  zhihu: "#"
-  #qq: "#"
+  #zhihu: "#"
+  qq: "/assets/img/qq.jpg"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
