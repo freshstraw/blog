@@ -64,9 +64,9 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
+baidu_analytics: ecd57b4440715a458503d09bcf7d0c84
 google_analytics: ''
-favicon: /favicon.png
+favicon: /assets/img/favicon.jpg
 
 #你的头像url
 avatar: /assets/img/head.jpg
@@ -118,6 +118,10 @@ smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
   aboutme: '关于我'
+
+# 不蒜子网站统计
+busuanzi:
+  enable: true
 
 friends:
   # 友情链接1: http://localhost:4000/

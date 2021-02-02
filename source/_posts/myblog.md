@@ -1,4 +1,11 @@
+---
+title: myblog
+date: 2021-02-02 14:43:42
+top: 5
+---
+
 # 基于hexo框架，搭建个人博客
+<!-- more-->
 
 ## 基本操作步骤:
 ### (一). 本地安装node.js 6.x版本以上(这里默认已安装[nodejs官方下载链接](https://nodejs.org/zh-cn/download/))。
@@ -121,16 +128,3 @@ sudo cnpm install --save
 
 ---
 #### 调试过程中缺少相应插件，根据上述基本操作步骤，安装即可。
-
----
----
-## 添加版娘
-1. 安装插件
-```
-sudo cnpm install --save hexo-helper-live2d
-```
-
-2. 安装模型
-```
-sudo cnpm install live2d-widget-model-hibiki
-```
